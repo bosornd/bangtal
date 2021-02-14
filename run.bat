@@ -1,2 +1,0 @@
-set JEKYLL_GITHUB_TOKEN=9337168d2a9d77725cc1effd1097e0e4b7549057
-bundle exec jekyll serve

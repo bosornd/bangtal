@@ -1,12 +1,36 @@
 # main links
 main:
-  - title: "Quick-Start Guide"
+  - title: "Getting Started"
+    url: /docs/visual-studio-guide/
+  - title: "Minimal Mistakes Guide"
     url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+
+docs:
+  - title: Getting Started
+    children:
+      - title: "Visual Studio Guide"
+        url: /docs/visual-studio-guide/
+      - title: "Android Studio Guide"
+        url: /docs/android-studio-guide/
+      - title: "Xcode Guide"
+        url: /docs/xcode-guide/
+      - title: "Python Guide"
+        url: /docs/python-guide/
+  - title: Programming in C
+    children:
+      - title: "create scenes"
+        url: /docs/c/create-scenes/
+  - title: Programming in C++
+    children:
+      - title: "create scenes"
+        url: /docs/c++/create-scenes/
+  - title: Programming in Python
+    children:
+      - title: "create scenes"
+        url: /docs/python/create-scenes/
+  - title: Examples
+    children:
+      - title: "Gogh"
+        url: /docs/example-gogh/
+      - title: "Othello"
+        url: /docs/example-othello/
