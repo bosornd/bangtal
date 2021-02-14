@@ -11,7 +11,8 @@ Android Studio를 사용해서 방탈 라이브러리 게임(안드로이드 앱
 - C/C++ 개발을 위해서 NDK를 설치해야 한다.
 
 <figure>
-  <img src="/images/android_studio_install.png" alt="Android Studio SDK Manager">
+  <a href="/images/android_studio_install.png">
+  <img src="/images/android_studio_install.png" alt="Android Studio SDK Manager"></a>
 </figure>
 
 ## Bangtal Library 설치하기
@@ -20,13 +21,16 @@ Android Studio를 사용해서 방탈 라이브러리 게임(안드로이드 앱
 ## 프로젝트 생성하기
 Android Studio에서 "Native C++"프로젝트를 생성한다.
 <figure>
-  <img src="/images/android_studio_create_project1.png" alt="프로젝트 생성하기1">
+  <a href="/images/android_studio_create_project1.png">
+  <img src="/images/android_studio_create_project1.png" alt="프로젝트 생성하기1"></a>
 </figure>
 <figure>
-  <img src="/images/android_studio_create_project2.png" alt="프로젝트 생성하기2">
+  <a href="/images/android_studio_create_project2.png">
+  <img src="/images/android_studio_create_project2.png" alt="프로젝트 생성하기2"></a>
 </figure>
 <figure>
-  <img src="/images/android_studio_create_project3.png" alt="프로젝트 생성하기3">
+  <a href="/images/android_studio_create_project3.png">
+  <img src="/images/android_studio_create_project3.png" alt="프로젝트 생성하기3"></a>
 </figure>
 
 ## 프로젝트 설정하기
@@ -85,7 +89,8 @@ target_link_libraries(native-lib $ENV{BANGTAL_HOME}/lib/android/${CMAKE_BUILD_TY
 게임에 사용되는 이미지 등의 리소스는 app/src/main/assets 폴더에 넣으면 됩니다.
 
 <figure>
-  <img src="/images/android_studio_create_assets.png" alt="에셋 폴더 만들기">
+  <a href="/images/android_studio_create_assets.png">
+  <img src="/images/android_studio_create_assets.png" alt="에셋 폴더 만들기"></a>
 </figure>
 
 ## 주의할 점
