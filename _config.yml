@@ -263,6 +263,9 @@ collections:
   docs:
     output: true
     permalink: /:collection/:path/
+  api:
+    output: true
+    permalink: /:collection/:path/
 
 # Defaults
 defaults:
@@ -298,3 +301,10 @@ defaults:
         nav: "docs"
       toc: true
       toc_sticky: true
+  # _api
+  - scope:
+      path: ""
+      type: api
+    values:
+      layout: single
+      author_profile: false

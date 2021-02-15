@@ -2,8 +2,8 @@
 main:
   - title: "Getting Started"
     url: /docs/visual-studio-guide/
-  - title: "Minimal Mistakes Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+  - title: "API Reference"
+    url: /api/
 
 docs:
   - title: Getting Started
