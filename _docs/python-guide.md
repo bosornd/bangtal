@@ -12,8 +12,8 @@ Visual Studio를 사용해서 방탈 라이브러리 게임을 만들 수 있다
 - Python 개발을 위해서 설치 항목에 "Python 개발"을 선택한다. 32-bit 버전의 Python 개발 환경을 설치한다.
 
 <figure>
-  <a href="/images/visual_studio_install.png">
-  <img src="/images/visual_studio_install.png" alt="Visual Studio Installer Options"></a>
+  <a href="/assets/images/visual_studio_install.png">
+  <img src="/assets/images/visual_studio_install.png" alt="Visual Studio Installer Options"></a>
 </figure>
 
 ## Bangtal Library 설치하기
@@ -22,16 +22,16 @@ Visual Studio를 사용해서 방탈 라이브러리 게임을 만들 수 있다
 ## 프로젝트 생성하기
 Visual Studio에서 파이썬 어플리케이션 프로젝트를 생성한다.
 <figure>
-  <a href="/images/python_create_project.png">
-  <img src="/images/python_create_project.png" alt="파이썬 프로젝트 생성하기"></a>
+  <a href="/assets/images/python_create_project.png">
+  <img src="/assets/images/python_create_project.png" alt="파이썬 프로젝트 생성하기"></a>
 </figure>
 
 ## 방탈 패키지 설치하기
 도구(T)/Python(P)/Python 환경(E) 메뉴로 Python 환경 창을 연다. PyPI로부터 방탈 패키지를 설치한다.
 
 <figure>
-  <a href="/images/python_install_bangtal.png">
-  <img src="/images/python_install_bangtal.png" alt="방탈 패키지 설치하기"></a>
+  <a href="/assets/images/python_install_bangtal.png">
+  <img src="/assets/images/python_install_bangtal.png" alt="방탈 패키지 설치하기"></a>
 </figure>
 
 ## 게임 프로그램 만들기
@@ -39,8 +39,8 @@ Visual Studio에서 파이썬 어플리케이션 프로젝트를 생성한다.
 PY 파일에 프로그램을 작성한다.
 
 <figure>
-  <a href="/images/python_program.png">
-  <img src="/images/python_program.png" alt="게임 프로그램 만들기"></a>
+  <a href="/assets/images/python_program.png">
+  <img src="/assets/images/python_program.png" alt="게임 프로그램 만들기"></a>
 </figure>
 
 ## 참고
