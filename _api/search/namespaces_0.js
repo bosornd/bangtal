@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['bangtal_328',['bangtal',['../namespacebangtal.html',1,'']]]
+  ['bangtal_329',['bangtal',['../namespacebangtal.html',1,'']]]
 ];
