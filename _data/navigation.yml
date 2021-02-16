@@ -18,16 +18,16 @@ docs:
         url: /docs/python-guide/
   - title: Programming in C
     children:
-      - title: "create scenes"
-        url: /docs/c/create-scenes/
+      - title: "방탈출 만들기"
+        url: /docs/c/room-escape/
   - title: Programming in C++
     children:
-      - title: "create scenes"
-        url: /docs/c++/create-scenes/
+      - title: "방탈출 만들기"
+        url: /docs/c++/room-escape/
   - title: Programming in Python
     children:
-      - title: "create scenes"
-        url: /docs/python/create-scenes/
+      - title: "방탈출 만들기"
+        url: /docs/python/room-escape/
   - title: Examples
     children:
       - title: "Gogh"

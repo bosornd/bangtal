@@ -27,7 +27,7 @@ Visual Studio에서 파이썬 어플리케이션 프로젝트를 생성한다.
 </figure>
 
 ## 방탈 패키지 설치하기
-도구(T)/Python(P)/Python 환경(E) 메뉴로 Python 환경 창을 연다. PyPI로부터 방탈 패키지를 설치한다.
+도구(T)/Python(P)/Python 환경(E) 메뉴로 Python 환경 창을 연다. PyPI로부터 방탈 패키지를 설치한다. pip install bangtal 명령.
 
 <figure>
   <a href="/assets/images/python_install_bangtal.png">
