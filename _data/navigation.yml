@@ -30,6 +30,8 @@ docs:
         url: /docs/python/room-escape/
   - title: Examples
     children:
+      - title: "cauMario"
+        url: /docs/example-cauMario/
       - title: "Gogh"
         url: /docs/example-gogh/
       - title: "Othello"
