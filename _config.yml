@@ -263,6 +263,9 @@ collections:
   docs:
     output: true
     permalink: /:collection/:path/
+  lectures:
+    output: true
+    permalink: /:collection/:path/
   api:
     output: true
     permalink: /:collection/:path/
@@ -301,6 +304,14 @@ defaults:
         nav: "docs"
       toc: true
       toc_sticky: true
+  # _lectures
+  - scope:
+      path: ""
+      type: lectures
+    values:
+      layout: single
+      author_profile: true
+      comments: true
   # _api
   - scope:
       path: ""
