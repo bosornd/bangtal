@@ -20,14 +20,32 @@ docs:
     children:
       - title: "방탈출 만들기"
         url: /docs/c/room-escape/
+      - title: "방탈출 만들기(유투브)"
+        url: /docs/c/room-escape-youtube/
+      - title: "산타레이스"
+        url: /docs/c/santarace/
+      - title: "틀린그림찾기"
+        url: /docs/c/differences/
   - title: Programming in C++
     children:
       - title: "방탈출 만들기"
         url: /docs/c++/room-escape/
+      - title: "방탈출 만들기(유투브)"
+        url: /docs/c++/room-escape-youtube/
+      - title: "산타레이스"
+        url: /docs/c++/santarace/
+      - title: "틀린그림찾기"
+        url: /docs/c++/differences/
   - title: Programming in Python
     children:
       - title: "방탈출 만들기"
         url: /docs/python/room-escape/
+      - title: "방탈출 만들기(유투브)"
+        url: /docs/python/room-escape-youtube/
+      - title: "산타레이스"
+        url: /docs/python/santarace/
+      - title: "틀린그림찾기"
+        url: /docs/python/differences/
   - title: Examples
     children:
       - title: "cauMario"
