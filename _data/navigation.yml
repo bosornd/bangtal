@@ -52,5 +52,7 @@ docs:
         url: /docs/example-cauMario/
       - title: "Gogh"
         url: /docs/example-gogh/
+      - title: "Hogwarts"
+        url: /docs/example-hogwarts/
       - title: "Othello"
         url: /docs/example-othello/
