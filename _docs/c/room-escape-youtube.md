@@ -13,7 +13,6 @@ modified: "2021-02-17 10:50:00 +0900"
 </figure>
 
 아래 동영상은 이전 버전으로 설명하고 있어서 다음 사항에 차이가 있다.
-상세 내용은 카페의 [릴리즈](https://cafe.naver.com/bangtal/5)를 참고한다.
 
 - 별도의 게임 서버를 띄우지 않는다.
 - 헤더파일명이 변경되었다. Bangtal.h --> bangtal.h
@@ -23,7 +22,7 @@ modified: "2021-02-17 10:50:00 +0900"
   createObject("문1", "Images/문-오른쪽-닫힘.png")
   --> createObject("Images/문-오른쪽-닫힘.png")
 - 파일 경로를 입력할 때는 "\\"보다 "/"를 사용하는 것이 좋다.
-  추후 안드로이드 버전과의 호환성을 위함.
+  안드로이드 버전과의 호환성을 위함.
   기본 문자열이 UTF-8로 설정됨. #pragma execution_character_set("utf-8")
 - keypad type이 제거되었다.
   암호에 따라서 영문/숫자가 자동으로 보인다.
@@ -33,7 +32,7 @@ modified: "2021-02-17 10:50:00 +0900"
 ## 1. 장면을 생성한다.
 {% include video id="DR17awoWyCs" provider="youtube" %}
 
-## 2. 게임을 시작한3.
+## 2. 게임을 시작한다.
 {% include video id="c6oNo4YnEEc" provider="youtube" %}
 
 ## 3. 문을 생성한다.

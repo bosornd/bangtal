@@ -26,7 +26,7 @@ int main()
 
 C/C++ 프로그램은 main() 함수에서 시작한다.
 상기 프로그램은 배경-1.png(이미지) 파일로 장면을 생성하고, 생성된 장면으로 게임을 시작한다.
-[startGame()](/api/bangtal_8h.html#a4426589c4897d66f1af5e856056a33a7) 함수로 게임을 시작한다.<br />
+[startGame()](/api/bangtal_8h.html#a4426589c4897d66f1af5e856056a33a7) 함수로 게임을 시작한다.
 여기서 room1은 정보(값)를 저장하는 [변수](https://ko.wikipedia.org/wiki/변수_(컴퓨터 과학))이며 [SceneID](/api/bangtal_8h.html#a4276516c60e90dcc61adda40ef8dd0e5)는 room1의 [자료형](https://ko.wikipedia.org/wiki/자료형)이다.
 
 <figure>
