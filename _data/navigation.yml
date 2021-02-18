@@ -48,11 +48,13 @@ docs:
         url: /docs/python/differences/
   - title: Examples
     children:
-      - title: "cauMario"
-        url: /docs/example-cauMario/
       - title: "Gogh"
         url: /docs/example-gogh/
+      - title: "cauMario"
+        url: /docs/example-cauMario/
       - title: "Hogwarts"
         url: /docs/example-hogwarts/
+      - title: "Yonggam"
+        url: /docs/example-yonggam/
       - title: "Othello"
         url: /docs/example-othello/
