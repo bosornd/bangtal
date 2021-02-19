@@ -56,5 +56,7 @@ docs:
         url: /docs/example-hogwarts/
       - title: "Yonggam"
         url: /docs/example-yonggam/
+      - title: "Tetris"
+        url: /docs/example-tetris/
       - title: "Othello"
         url: /docs/example-othello/
