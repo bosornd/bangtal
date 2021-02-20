@@ -108,11 +108,11 @@ from bangtal import *
 9. Object에 마우스 입력이 된 경우에 호출되는 callback 함수<br />
    a) onMouseActionDefault(object, x, y, action): 모든 Object 객체의 default callback 함수<br />
    b) onMouseAction(x, y, action): 개별 Object 객체의 callback 함수<br />
-   action은 click과 drag가 있으며, MouseActionType으로 정의되어 있다.<br />
+   action은 click과 drag가 있으며, MouseAction으로 정의되어 있다.<br />
    ```python
-   if action==MouseActionType.CLICK:
+   if action==MouseAction.CLICK:
        print("Clicked")
-   elif action==MouseActionType.DRAG_RIGHT:
+   elif action==MouseAction.DRAG_RIGHT:
        print("Dragged to the Right")
    ```
 
