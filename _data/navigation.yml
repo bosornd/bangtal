@@ -56,7 +56,7 @@ docs:
     children:
       - title: "고흐의 방"
         url: /docs/example-gogh/
-      - title: "카우 마리오"
+      - title: "카우마리오"
         url: /docs/example-cauMario/
       - title: "호그와트 마법학교"
         url: /docs/example-hogwarts/

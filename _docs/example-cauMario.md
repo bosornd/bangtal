@@ -1,7 +1,7 @@
 ---
-title: "예제: 카우 마리오"
+title: "예제: 카우마리오"
 permalink: /docs/example-cauMario/
-excerpt: "카우 마리오 예제"
+excerpt: "카우마리오 예제"
 modified: "2021-02-14 20:51:00 +0900"
 ---
 Developed by 김동영, 박혜인, 안수겸
