@@ -1,5 +1,5 @@
 ---
-title: "예제: cauMario"
+title: "예제: 카우 마리오"
 permalink: /docs/example-cauMario/
 excerpt: "카우 마리오 예제"
 modified: "2021-02-14 20:51:00 +0900"
