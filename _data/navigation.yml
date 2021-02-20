@@ -18,6 +18,8 @@ docs:
         url: /docs/python-guide/
   - title: Programming in C
     children:
+      - title: "API 가이드"
+        url: /docs/c/api-guide/
       - title: "방탈출 만들기"
         url: /docs/c/room-escape/
       - title: "방탈출 만들기(유투브)"
@@ -28,6 +30,8 @@ docs:
         url: /docs/c/differences/
   - title: Programming in C++
     children:
+      - title: "API 가이드"
+        url: /docs/c++/api-guide/
       - title: "방탈출 만들기"
         url: /docs/c++/room-escape/
       - title: "방탈출 만들기(유투브)"
@@ -38,6 +42,8 @@ docs:
         url: /docs/c++/differences/
   - title: Programming in Python
     children:
+      - title: "API 가이드"
+        url: /docs/python/api-guide/
       - title: "방탈출 만들기"
         url: /docs/python/room-escape/
       - title: "방탈출 만들기(유투브)"
