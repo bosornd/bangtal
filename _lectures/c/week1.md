@@ -8,7 +8,8 @@ permalink: /lectures/c/week1/
 - 방탈 라이브러리 설치하기
 
 ## Visual Studio 설치하기
-먼저 최신 버전의 [Visual Studio](https://visualstudio.microsoft.com/ko/downloads/)를 다운 받아서 설치한다. 학생 및 오픈 소스 개발자를 위한 Community 버전을 설치한다.
+먼저 최신 버전의 [Visual Studio](https://visualstudio.microsoft.com/ko/downloads/)를 다운 받아서 설치한다.
+학생 및 오픈 소스 개발자를 위한 Community 버전을 설치한다.
 - C/C++ 개발을 위해서 설치 항목에 "C++을 사용한 데스크톱 개발"을 선택한다.
 - Python 개발을 위해서 설치 항목에 "Python 개발"을 선택한다. 32-bit 버전의 Python 개발 환경을 설치한다.
 
@@ -44,14 +45,16 @@ CPP 파일에 프로그램을 작성한다.
 </figure>
 
 ## 설치 오류
-정상적으로 설치되었으면 별도의 설정이 없이도 헤더 파일이나 라이브러리를 사용할 수 있다. 프로젝트 속성에 $(BANGTAL_HOME)include와 $(BANGTAL_HOME)lib가 포함되어 있음을 확인할 수 있다.
+정상적으로 설치되었으면 별도의 설정이 없이도 헤더 파일이나 라이브러리를 사용할 수 있다.
+프로젝트 속성에 $(BANGTAL_HOME)include와 $(BANGTAL_HOME)lib가 포함되어 있음을 확인할 수 있다.
 
 <figure>
   <a href="/assets/images/visual_studio_project_settings.png">
   <img src="/assets/images/visual_studio_project_settings.png" alt="Visual Studio 프로젝트 속성"></a>
 </figure>
 
-- 프로젝트 속성에 $(BANGTAL_HOME)include 등이 설정되지 않은 경우:  %localappdata%\Microsoft\MSBuild\v4.0\Microsoft.Cpp.Win32.user.props 파일에 Include/Library 경로가 설정되어 있는지를 확인한다.
+- 프로젝트 속성에 $(BANGTAL_HOME)include 등이 설정되지 않은 경우:  %localappdata%\Microsoft\MSBuild\v4.0\Microsoft.Cpp.Win32.user.props 파일에 Include/Library 경로가
+설정되어 있는지를 확인한다.
 
 ```
 <?xml version="1.0" encoding="utf-8"?>

@@ -12,20 +12,19 @@ Developed by 김일혁, 손희오, 김동우, 박성원
 
 마법학교 입학 기회를 얻은 여러분 모두 환영합니다! 마법학교에서는 여러가지 시험을 통해 마법 능력을 측정하고 있어요.
 
-### 기숙사 배정
+## 기숙사
 <figure>
   <img src="https://user-images.githubusercontent.com/71178153/101273222-bf7b7400-37d6-11eb-901f-2940fcc9a182.PNG">
 </figure>
 마법학교 신입생이라면 누구나 거쳐야 하는 기숙사 배정 시간! 그리핀도르, 슬리데린, 후플푸프, 레번클로 중 나와 어울리는
 기숙사는 어딜지 테스트를 통해 확인해보세요. 마법학교에서 거짓말은 통하지 않아요, 솔직하게 답변해 주세요!
 
-### 기숙사
 <figure>
   <img src="https://user-images.githubusercontent.com/71178153/101273716-3f0b4200-37db-11eb-9fba-f29f77498309.png">
 </figure>
 기숙사는 모두 4개입니다. 배정된 기숙사에 따라 게임 테마가 변경됩니다.
 
-### 게임 선택
+## 게임 선택
 <figure>
   <img src="https://user-images.githubusercontent.com/71178153/101273719-416d9c00-37db-11eb-9fc3-8746aae3c22a.PNG">
 </figure>
@@ -86,7 +85,7 @@ Developed by 김일혁, 손희오, 김동우, 박성원
 지금이 그 보물을 찾을 수 있는 절호의 기회! 방향키를 사용해 자신 기숙사에 맞는 보물을 감시자들을 피해 찾도록 하세요.
 감시자들의 발자국을 지도에서 확인할 수 있고 가까워지면 표정이 변합니다.
 
-### 성적표
+## 성적표
 <figure>
   <img src="https://user-images.githubusercontent.com/71178153/101273264-f6ea2080-37d6-11eb-8e63-b05b6dec0712.PNG">
 </figure>

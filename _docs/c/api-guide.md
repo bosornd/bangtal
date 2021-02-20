@@ -9,7 +9,7 @@ permalink: /docs/c/api-guide/
  #include <bangtal.h>
  ```
 
-## 게임 관련 인터페이스
+## 게임 관련 함수
 1. void [startGame](/api/bangtal_8h.html#a4426589c4897d66f1af5e856056a33a7)([SceneID](/api/bangtal_8h.html#a4276516c60e90dcc61adda40ef8dd0e5) scene)<br />
   scene으로부터 게임을 시작한다.
   scene으로 들어가면서 이벤트(EVENT_ENTER_SCENE)가 발생한다.
@@ -22,7 +22,7 @@ permalink: /docs/c/api-guide/
 3. void [endGame](/api/bangtal_8h.html#aeda119595fcc834db9cfec532a90cf79)()<br />
   게임을 종료한다.
 
-## 장면(Scene) 관련 인터페이스
+## 장면(Scene) 관련 함수
 1. [SceneID](/api/bangtal_8h.html#a4276516c60e90dcc61adda40ef8dd0e5) [createScene](/api/bangtal_8h.html#a3b2c14502ab6ce66c317b12308915234)(const char* name, const char* image = nullptr)<br />
   주어진 이름(name)과 배경 이미지(image)를 가진 장면을 생성하고 ID를 반환한다.
   ```c
@@ -45,7 +45,7 @@ permalink: /docs/c/api-guide/
   장면에서 발생하는 이벤트를 수신하는 callback 함수를 설정한다.
   장면에 들어갈 때(EVENT_ENTER_SCENE), 나올 때(EVENT_LEAVE_SCENE) 이벤트가 발생한다.
 
-## 물체(Object) 관련 인터페이스
+## 물체(Object) 관련 함수
 1. [ObjectID](/api/bangtal_8h.html#a9d43422939374d7485e494503ab30b8b) [createObject](/api/bangtal_8h.html#a0e7f05670de47ad24a63591b69bbe793)(const char* image)<br />
   주어진 이미지(image)로 믈체를 생성하고 ID를 반환한다.
   ```c
@@ -105,7 +105,7 @@ permalink: /docs/c/api-guide/
   키보드 입력을 수신하는 callback 함수를 설정한다.
   키가 눌리는 경우에 코드와 상태(KEY_PRESSED / KEY_RELEASED)가 전달된다.
 
-## 사운드(Sound) 관련 인터페이스
+## 사운드(Sound) 관련 함수
 1. [SoundID](/api/bangtal_8h.html#ac1b492d538b28c7f774773107f49c891) [createSound](/api/bangtal_8h.html#a0d0dd5b506199c1e936bc808ce84523f)(const char* sound)<br />
   사운드 파일(sound)로 사운드 객체를 생성하고 ID를 반환한다.
   ```c
@@ -122,7 +122,7 @@ permalink: /docs/c/api-guide/
   사운드에서 발생하는 이벤트를 수신하는 callback 함수를 설정한다.
   사운드 재생이 종료될 때 이벤트(EVENT_SOUND)가 발생한다.
 
-## 타이머(Timer) 관련 인터페이스
+## 타이머(Timer) 관련 함수
 1. [TimerID](/api/bangtal_8h.html#a46a79edf8de643e2431a15f55a193ee3) [createTimer](/api/bangtal_8h.html#aff732779cd7227ae651b617ce6729ac7)([Second](/api/bangtal_8h.html#a5c08c0353fd36f12c1b2ef409eb6db10) second = 0)<br />
   주어진 시간(second 초)으로 타이머 객체를 생성하고 ID를 반환한다.
   ```c
@@ -150,7 +150,7 @@ permalink: /docs/c/api-guide/
   타이머에서 발생하는 이벤트를 수신하는 callback 함수를 설정한다.
   타이머가 종료될 때 이벤트(EVENT_TIMER)가 발생한다.
 
-## 다이얼로그 관련 인터페이스
+## 다이얼로그 관련 함수
 1. void [showMessage](/api/bangtal_8h.html#aa3d14543ea624c7209e4cd2a9d33cb7a)(const char* message)<br />
   주어진 메시지(message)를 메시지 창에 보인다.
 

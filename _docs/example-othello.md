@@ -10,7 +10,7 @@ C++ 방탈 라이브러리로 개발되었으며,
 동일한 소스 코드로 Windows (Visual Studio) / Android (Android Studio) / MacBook (Xcode) 프로젝트를 구성한다.
 Python 프로젝트도 포함되어 있다.
 
-## 오델로 게임
+## 게임 소개
 
 [오델로](https://ko.wikipedia.org/wiki/오델로)는 가로 세로 8칸의 보드에
 검은 돌과 흰돌을 번갈아 놓는 보드 게임이다.
