@@ -38,21 +38,29 @@ from bangtal import *
 
 9. showKeypad(password, object)<br />
    암호를 입력할 수 있는 입력 창이 보인다.
-   사용자가 주어진 암호(password)를 맞추는 경우에 object.onKeypad() 함수가 호출된다.<br />
-   ex) showKeypad("PASS1234", door1)
+   사용자가 주어진 암호(password)를 맞추는 경우에 object.onKeypad() 함수가 호출된다.
+   ```python
+   showKeypad("PASS1234", door1)
+   ```
 
 ## Scene 객체
 1. 생성자 - Scene(name, image_file)<br />
    Scene 객체를 생성합니다.<br />
-   ex) scene1 = Scene("룸1", "Images/배경-1.png")
+   ```python
+   scene1 = Scene("룸1", "Images/배경-1.png")
+   ```
 
 2. setImage(image_file)<br />
    Scene 객체의 배경 이미지를 변경합니다.<br />
-   ex) scene1.setImage("Images/배경-2.png")
+   ```python
+   scene1.setImage("Images/배경-2.png")
+   ```
 
 3. setLight(light)<br />
    Scene 객체의 조명을 조절합니다. (0~1 사이의 값)<br />
-   ex) scene1.setLight(0.7.     # 70%
+   ```python
+   scene1.setLight(0.7)     # 70%
+   ```
 
 4. enter()<br />
    scene으로 장면을 변경한다.
@@ -74,27 +82,39 @@ from bangtal import *
 ## Object 객체
 1. 생성자 - Object(image_file)<br />
    Object 객체를 생성합니다.<br />
-   ex) door1 = Object("Images/문-오른쪽-닫힘.png")
+   ```python
+   door1 = Object("Images/문-오른쪽-닫힘.png")
+   ```
 
 2. setImage(image_file)<br />
    Object 객체의 이미지를 변경합니다.<br />
-   ex) door1.setImage("Images/문-오른쪽-열림.png")
+   ```python
+   door1.setImage("Images/문-오른쪽-열림.png")
+   ```
 
 3. setScale(scale)<br />
    Object 객체의 크기를 조정합니다.<br />
-   ex) door1.setScale(0.5.      # 50%
+   ```python
+   door1.setScale(0.5)      # 50%
+   ```
 
 4. locate(scene, x, y)<br />
    Object 객체를 Scene에 위치시킵니다.<br />
-   ex) door1.locate(scene1, 800, 270)
+   ```python
+   door1.locate(scene1, 800, 270)
+   ```
 
 5. show() / hide()<br />
    Object 객체를 보이거나(show) 숨깁니다(hide).<br />
-   ex) door1.show()
+   ```python
+   door1.show()
+   ```
 
 6. pick() / drop()<br />
    Object 객체를 줍거나(pick) 떨어뜨립니다(drop).<br />
-   ex) key1.pick()
+   ```python
+   key1.pick()
+   ```
 
 7. defineCombination(object1, object2)<br />
    Object 객체의 조합/분해하는 방법을 정의한다.
@@ -135,11 +155,15 @@ from bangtal import *
 ## Sound 객체
 1. 생성자 - Sound(sound_file)<br />
    Sound 객체를 생성합니다.<br />
-   ex) sound1 = Sound("Audios/Start.mp3")
+   ```python
+   sound1 = Sound("Audios/Start.mp3")
+   ```
 
 2. play(loop = False) / stop()<br />
    Sound 객체를 재생(play)하거나 종료(stop)합니다.<br />
-   ex) sound1.play(True)
+   ```python
+   sound1.play(True)
+   ```
 
 3. 재생이 종료된 경우에 호출되는 callback 함수<br />
    a) onCompletedDefault(object): 모든 Sound 객체의 default callback 함수<br />
@@ -148,11 +172,15 @@ from bangtal import *
 ## Timer 객체
 1. 생성자 - Timer(seconds)<br />
    Timer 객체를 생성합니다.<br />
-   ex) timer1 = Timer(10.5)       # 10.5초
+   ```python
+   timer1 = Timer(10.5)       # 10.5초
+   ```
 
 2. start() / stop()<br />
    Timer 객체를 시작(start)하거나 종료(stop)합니다.<br />
-   ex) timer1.start()
+   ```python
+   timer1.start()
+   ```
 
 3. get()<br />
    Timer 객체의 현재 시간을 반환합니다.
