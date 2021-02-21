@@ -98,7 +98,7 @@ analytics:
 author:
   name             : "CHO YONG JIN"
   avatar           : "/assets/images/drajin.png"
-  bio              : "Software Architect & Learning Experience Designer"
+  bio              : "Software Architect &<br />Learning Experience Designer"
   location         :
   email            : "drajin.cho@bosornd.com"
   links:
@@ -282,10 +282,10 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: true
+#      read_time: true
       comments: true
       share: true
-      related: true
+#      related: true
   # _pages
   - scope:
       path: ""
@@ -315,6 +315,8 @@ defaults:
       layout: single
       author_profile: true
       comments: true
+      toc: true
+      toc_sticky: true
   # _api
   - scope:
       path: ""

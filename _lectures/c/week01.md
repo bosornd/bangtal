@@ -1,6 +1,6 @@
 ---
 title: "1주차 - 과목 소개"
-permalink: /lectures/c/week1/
+permalink: /lectures/c/week01/
 ---
 이 강의는 방탈 라이브러리를 사용해서 게임을 만들면서 C언어 프로그래밍을 공부한다.
 1주차에는 개발 환경을 설정한다.
@@ -18,7 +18,7 @@ permalink: /lectures/c/week1/
   <img src="/assets/images/visual_studio_install.png" alt="Visual Studio Installer Options"></a>
 </figure>
 
-다음 동영상으로 Visual Studio 2019의 설치 및 사용법을 공부한다.
+다음 동영상으로 Visual Studio 2019의 설치와 사용법을 공부한다.
 {% include video id="1KOKYCADZ5o" provider="youtube" %}
 
 ## Bangtal Library 설치하기

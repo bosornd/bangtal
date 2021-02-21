@@ -1,6 +1,6 @@
 ---
 title: "4주차 - 프로그래밍 맛보기(3)"
-permalink: /lectures/c/week4/
+permalink: /lectures/c/week04/
 ---
 틀린그림찾기 게임 예제를 따라하면서 C언어 프로그래밍을 맛본다.
 설명에 사용된 이미지와 완성된 프로그램은 다음 링크를 참고한다.
