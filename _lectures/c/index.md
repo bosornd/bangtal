@@ -47,7 +47,7 @@ permalink: /lectures/c/
 ## 13주차 - 구조체
 - [사전 학습 자료](/lectures/c/week13/)
 
-## 14주차 - 구조체
+## 14주차 - 고급 기능
 - [사전 학습 자료](/lectures/c/week14/)
 
 ## 15주차 - 그룹 과제
