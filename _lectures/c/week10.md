@@ -3,8 +3,6 @@ title: "10주차 - 함수"
 permalink: /lectures/c/week10/
 ---
 함수에 대해서 공부한다.
-- for, while, do while
-- break, continue
 
 ## 1. 함수
 {% include video id="Twd5C84EI7U" provider="youtube" %}

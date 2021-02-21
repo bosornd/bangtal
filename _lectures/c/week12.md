@@ -1,15 +1,13 @@
 ---
-title: "12주차 - 배열"
+title: "12주차 - 배열과 문자열"
 permalink: /lectures/c/week12/
 ---
 배열에 대해서 공부한다.
-- for, while, do while
-- break, continue
 
-## 1. 배열과 문자(1)
+## 1. 배열과 문자열(1)
 {% include video id="nQ73Yu9hfjQ" provider="youtube" %}
 
-## 2. 배열과 문자(2)
+## 2. 배열과 문자열(2)
 {% include video id="wAITao6TnNs" provider="youtube" %}
 
 ## 3. 배열과 포인터
