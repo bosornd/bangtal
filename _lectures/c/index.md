@@ -1,5 +1,5 @@
 ---
-title: "C언어 과정(1학기)"
+title: "C언어 강좌"
 permalink: /lectures/c/
 ---
 
@@ -13,21 +13,27 @@ permalink: /lectures/c/
 
 ## 2주차 - 프로그래밍 맛보기(1)
 - [사전 학습 자료](/lectures/c/week02/)
+- [퀴즈](/lectures/c/quiz02/)
 
 ## 3주차 - 프로그래밍 맛보기(2)
 - [사전 학습 자료](/lectures/c/week03/)
+- [퀴즈](/lectures/c/quiz03/)
 
 ## 4주차 - 프로그래밍 맛보기(3)
 - [사전 학습 자료](/lectures/c/week04/)
+- [퀴즈](/lectures/c/quiz04/)
 
 ## 5주차 - 변수와 자료형
 - [사전 학습 자료](/lectures/c/week05/)
+- [퀴즈](/lectures/c/quiz05/)
 
 ## 6주차 - 조건문
 - [사전 학습 자료](/lectures/c/week06/)
+- [퀴즈](/lectures/c/quiz06/)
 
 ## 7주차 - 반복문
 - [사전 학습 자료](/lectures/c/week07/)
+- [퀴즈](/lectures/c/quiz07/)
 
 ## 8주차 - 중간 고사
 - 중간 고사
@@ -37,18 +43,23 @@ permalink: /lectures/c/
 
 ## 10주차 - 함수
 - [사전 학습 자료](/lectures/c/week10/)
+- [퀴즈](/lectures/c/quiz10/)
 
 ## 11주차 - 포인터
 - [사전 학습 자료](/lectures/c/week11/)
+- [퀴즈](/lectures/c/quiz11/)
 
 ## 12주차 - 배열과 문자열
 - [사전 학습 자료](/lectures/c/week12/)
+- [퀴즈](/lectures/c/quiz12/)
 
 ## 13주차 - 구조체
 - [사전 학습 자료](/lectures/c/week13/)
+- [퀴즈](/lectures/c/quiz13/)
 
 ## 14주차 - 고급 기능
 - [사전 학습 자료](/lectures/c/week14/)
+- [퀴즈](/lectures/c/quiz14/)
 
 ## 15주차 - 그룹 과제
 - 그룹 과제
