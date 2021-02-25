@@ -52,3 +52,15 @@ Developed by 이원형
 4줄 = 600  
 데미지 = 기본데미지 * (1 + 0.1*콤보) (단, 최대 콤보는 5)  
 블록을 잘 쌓아 자쿰의 체력 5000을 깎아 무찌르세요.
+
+## 실행 파일 만들기
+pyinstaller를 사용해서 Python 프로그램을 실행 파일로 만들 수 있다.
+먼저 pyinstaller를 설치한다(pip install pyinstaller).
+그리고, 다음 명령으로 실행 파일을 생성할 수 있다.
+
+```
+pyinstaller Tetris.spec
+```
+
+방탈 라이브러리 설치 폴더가 "C:\Program Files (x86)\Bosornd\Bangtal\"이 아닌 경우에
+Tetris.spec을 수정해야 한다.

@@ -26,3 +26,17 @@ Python 프로젝트도 포함되어 있다.
 <figure>
   <img src="/assets/images/othello_game1.png">
 </figure>
+
+## 실행 파일 만들기
+pyinstaller를 사용해서 Python 프로그램을 실행 파일로 만들 수 있다.
+먼저 pyinstaller를 설치한다(pip install pyinstaller).
+그리고, 다음 명령으로 실행 파일을 생성할 수 있다.
+
+```
+pyinstaller othello.spec
+```
+
+그 전에 config.py에 IAMGE_PATH를 "Image/"로 수정해야 한다.
+
+방탈 라이브러리 설치 폴더가 "C:\Program Files (x86)\Bosornd\Bangtal\"이 아닌 경우에
+othello.spec을 수정해야 한다.
