@@ -77,6 +77,17 @@ Python 방탈 패키지도 설치되어야 한다(pip install bangtal 명령).
   <img src="/assets/images/python_console2.png" alt="콘솔에서 파이썬 프로그래밍2"></a>
 </figure>
 
+## 실행 파일 만들기
+pyinstaller로 실행 파일을 만들 수 있다. 먼저 pip install pyinstaller 명령으로 pyinstaller를 설치한다.
+그리고, 다음 명령으로 Python 프로그램을 실행 파일로 만들 수 있다.
+```
+pyinstaller --add-data "%BANGTAL_HOME%/bin/bangtal.dll;." --add-data "%BANGTAL_HOME%/res;res" --add-data "*.png;." -w example.py
+```
+--add-data 옵션으로 실행에 필요한 파일을 포함할 수 있다.<br />
+-w 옵션은 콘솔창이 보이지 않도록 한다.<br />
+pyinstaller가 프로그램에 필요한 bangtal.dll을 자동으로 포함하는데,
+파일명이 bangtal.dll에서 bangtal로 바뀐다. 이 문제로 bangtal.dll을 포함하도록 설정한다.
+
 ## 참고
 - [https://github.com/bosornd/bangtal.python](https://github.com/bosornd/bangtal.python)
 - [https://github.com/bosornd/bangtal.othello](https://github.com/bosornd/bangtal.othello)
