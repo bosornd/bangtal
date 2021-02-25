@@ -4,7 +4,7 @@ permalink: /docs/python-guide/
 excerpt: "How to create a bangtal library game using Python on MS-Windows."
 modified: "2021-02-14 17:51:00 +0900"
 ---
-Visual Studio를 사용해서 방탈 라이브러리 게임을 만들 수 있다.
+Visual Studio를 사용해서 Python으로 방탈 라이브러리 게임을 만들 수 있다.
 
 ## Visual Studio 설치하기
 먼저 최신 버전의 [Visual Studio](https://visualstudio.microsoft.com/ko/downloads/)를 다운 받아서 설치한다. 학생 및 오픈 소스 개발자를 위한 Community 버전을 설치한다.
@@ -41,6 +41,40 @@ PY 파일에 프로그램을 작성한다.
 <figure>
   <a href="/assets/images/python_program.png">
   <img src="/assets/images/python_program.png" alt="게임 프로그램 만들기"></a>
+</figure>
+
+## Visual Studio 사용하지 않기
+VIsual Studio를 사용하지 않고 다른 IDE를 사용하거나 명령어 창에서 직접 방탈 프로그램을 실행할 수도 있다.
+단, x86용 Python 3.7을 사용해야 한다(상위 버전이나 x64용에서는 방탈 라이브러리가 정상적으로 동작하지 않는다).
+현재 최신 버전은 [3.7.9](https://www.python.org/ftp/python/3.7.9/python-3.7.9.exe)이다.
+
+<figure>
+  <a href="/assets/images/python_download.png">
+  <img src="/assets/images/python_download.png" alt="파이썬 설치 파일"></a>
+</figure>
+
+설치할 때 Python을 경로에 추가하도록 설정하는 것이 좋다.
+
+<figure>
+  <a href="/assets/images/python_install.png">
+  <img src="/assets/images/python_install.png" alt="파이썬 경로 추가"></a>
+</figure>
+
+다음과 같이 명령어 창에서 python을 실행하고 직접 프로그래밍 할 수 있다.
+물론 방탈 라이브러리([Bangtal.msi](https://github.com/bosornd/bangtal/releases))가 설치되어야 하며
+Python 방탈 패키지도 설치되어야 한다(pip install bangtal 명령).
+
+<figure>
+  <a href="/assets/images/python_console.png">
+  <img src="/assets/images/python_console.png" alt="콘솔에서 파이썬 프로그래밍1"></a>
+</figure>
+
+또한 Python 기본 IDE인 IDLE에서 프로그램을 작성하고 실행시킬 수 있습니다(F5 Run Module 명령으로).
+또는 명령창에서 파일로 직접 실행할 수도 있다.
+
+<figure>
+  <a href="/assets/images/python_console2.png">
+  <img src="/assets/images/python_console2.png" alt="콘솔에서 파이썬 프로그래밍2"></a>
 </figure>
 
 ## 참고
