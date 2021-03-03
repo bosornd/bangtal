@@ -36,7 +36,7 @@ CPP 파일에 프로그램을 작성한다.
 </figure>
 
 ## 설치 오류
-정상적으로 설치되었으면 별도의 설정이 없이도 헤더 파일이나 라이브러리를 사용할 수 있다. 프로젝트 속성에 $(BANGTAL_HOME)include와 $(BANGTAL_HOME)lib가 포함되어 있음을 확인할 수 있다.
+정상적으로 설치되었으면 별도의 설정이 없이도 헤더 파일이나 라이브러리를 사용할 수 있다. 헤더 파일을 포함할 수 없어서 컴파일 오류가 발생하거나 라이브러리를 링크하면서 오류가 발생한다면 설치가 정상적 인지를 확인한다. 프로젝트 속성에 $(BANGTAL_HOME)include와 $(BANGTAL_HOME)lib가 포함되어 있음을 확인할 수 있다.
 
 <figure>
   <a href="/assets/images/visual_studio_project_settings.png">
@@ -65,6 +65,20 @@ CPP 파일에 프로그램을 작성한다.
   <a href="/assets/images/windows_env_variable.png">
   <img src="/assets/images/windows_env_variable.png" alt="환경 변수 설정하기"></a>
 </figure>
+
+## 실행 오류
+실행하면서 startGame()에서 오류가 발생했다면, 게임을 시작할 장면이 비정상적인 경우입니다.
+대체로 이미지 경로가 잘못되어 createScene()에서 장면을 생성하는데 실패한 경우입니다.
+이 경우에 createScene()의 반환이 0입니다(정상적인 경우에는 0이 아닌 자연수입니다).
+<figure>
+  <a href="/assets/images/visual_studio_debug_fault.png">
+  <img src="/assets/images/visual_studio_debug_fault.png" alt="이미지 설정 오류"></a>
+</figure>
+
+이미지 경로는 Visual Studio에서 실행하는 경우에는 프로젝트 폴더를 기준으로 상대 경로입니다.
+즉, "배경-1.png"는 프로젝트 폴더에 있어야 합니다. "Images/배경-1.png"는 프로젝트
+폴더의 Images 폴더에 있어야 합니다. 직접 실행 파일로 실행하는 경우에는 실행 파일이 있는 폴더를
+기준으로 상대 경로에 이미지가 있어야 합니다.
 
 ## 참고
 - [https://github.com/bosornd/bangtal.c](https://github.com/bosornd/bangtal.c)
