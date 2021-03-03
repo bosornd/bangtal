@@ -218,7 +218,7 @@ plugins:
 
 # mimic GitHub Pages with --safe
 whitelist:
-  - jekyll-paginate
+#  - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
@@ -288,6 +288,8 @@ defaults:
 #      read_time: true
       comments: true
       share: true
+      toc: true
+      toc_sticky: true
 #      related: true
   # _pages
   - scope:
