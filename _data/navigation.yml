@@ -2,10 +2,12 @@
 main:
   - title: "Getting Started"
     url: /docs/visual-studio-guide/
-  - title: "C언어 강좌"
-    url: /lectures/c/
+  - title: "Blog"
+    url: /categories/
   - title: "API Reference"
     url: /api/
+  - title: "C언어 강좌"
+    url: /lectures/c/
 
 docs:
   - title: Getting Started
