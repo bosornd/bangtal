@@ -6,7 +6,7 @@ modified: "2021-02-14 17:51:00 +0900"
 ---
 Visual Studio를 사용해서 방탈 라이브러리 게임을 만들 수 있다.
 
-## Visual Studio 설치하기
+## Visual Studio 설치
 먼저 최신 버전의 [Visual Studio](https://visualstudio.microsoft.com/ko/downloads/)를 다운 받아서 설치한다. 학생 및 오픈 소스 개발자를 위한 Community 버전을 설치한다.
 - C/C++ 개발을 위해서 설치 항목에 "C++을 사용한 데스크톱 개발"을 선택한다.
 - Python 개발을 위해서 설치 항목에 "Python 개발"을 선택한다. 32-bit 버전의 Python 개발 환경을 설치한다.
@@ -16,17 +16,17 @@ Visual Studio를 사용해서 방탈 라이브러리 게임을 만들 수 있다
   <img src="/assets/images/visual_studio_install.png" alt="Visual Studio Installer Options"></a>
 </figure>
 
-## Bangtal Library 설치하기
+## 방탈 라이브러리 설치
 최신 버전의 방탈 라이브러리([Bangtal.msi](https://github.com/bosornd/bangtal/releases))를 설치한다.
 
-## 프로젝트 생성하기
+## 프로젝트 생성
 Visual Studio에서 콘솔 앱으로 프로젝트를 생성한다.
 <figure>
   <a href="/assets/images/visual_studio_create_project.png">
   <img src="/assets/images/visual_studio_create_project.png" alt="콘솔 앱으로 프로젝트 생성하기"></a>
 </figure>
 
-## 게임 프로그램 만들기
+## 게임 프로그램 생성
 장면을 생성(createScene 함수)하고, 생성된 장면으로 게임을 시작(startGame 함수)해 본다.
 CPP 파일에 프로그램을 작성한다.
 
@@ -66,7 +66,7 @@ CPP 파일에 프로그램을 작성한다.
   <img src="/assets/images/windows_env_variable.png" alt="환경 변수 설정하기"></a>
 </figure>
 
-## 실행 오류
+## 실행 오류1 (경로)
 실행하면서 startGame()에서 오류가 발생했다면, 게임을 시작할 장면이 비정상적인 경우입니다.
 대체로 이미지 경로가 잘못되어 createScene()에서 장면을 생성하는데 실패한 경우입니다.
 이 경우에 createScene()의 반환이 0입니다(정상적인 경우에는 0이 아닌 자연수입니다).
@@ -80,6 +80,26 @@ CPP 파일에 프로그램을 작성한다.
 폴더의 Images 폴더에 있어야 합니다.<br />
 직접 실행 파일로 실행한 경우에는 실행 파일을 실행한 현재 경로를 기준으로
 상대 경로에 이미지가 있어야 합니다.
+
+## 실행 오류2 (한글)
+방탈 라이브러리는 한글을 포함한 모든 문자열을 UTF-8로 인식한다. 따라서 소스 코드의 저장 방식도
+UTF-8(BOM)이어야  한다. 다음과 같이 메모장에서 인코딩 방식을 확인할 수 있는데, 그냥
+UTF-8이면 한글이 인식되지 않는다. UTF-8(BOM)으로 바꿔야 한다.
+<figure>
+  <a href="/assets/images/windows_korean_encoding1.png">
+  <img src="/assets/images/windows_korean_encoding1.png" alt="인코딩 UTF-8"></a>
+</figure>
+
+파일(F) - 다른 이름으로 저장(A) 메뉴로 인코딩을 UTF-8(BOM)으로 변경해서 저장한다.
+<figure>
+  <a href="/assets/images/windows_korean_encoding2.png">
+  <img src="/assets/images/windows_korean_encoding2.png" alt="인코딩 UTF-8(BOM)"></a>
+</figure>
+
+참고로 윈도우즈는 기본적으로 코드 페이지 949(ANSI)를 사용하지만,
+웹, 안드로이드 등에서는 코드 페이지 65001(UTF-8)을 사용한다.
+다양한 환경에서 공통적으로 사용하기 위해서는 UTF-8을 사용하는 것이 좋다.<br />
+일반적으로 모든 파일명은 영문으로 만드는 것이 더 좋다.
 
 ## 참고
 - [https://github.com/bosornd/bangtal.c](https://github.com/bosornd/bangtal.c)
