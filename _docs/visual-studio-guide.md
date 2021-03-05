@@ -96,10 +96,12 @@ UTF-8이면 한글이 인식되지 않는다. UTF-8(BOM)으로 바꿔야 한다.
   <img src="/assets/images/windows_korean_encoding2.png" alt="인코딩 UTF-8(BOM)"></a>
 </figure>
 
-참고로 윈도우즈는 기본적으로 코드 페이지 949(ANSI)를 사용하지만,
+윈도우즈는 기본적으로 코드 페이지 949(ANSI)를 사용하지만,
 웹, 안드로이드 등에서는 코드 페이지 65001(UTF-8)을 사용한다.
 다양한 환경에서 공통적으로 사용하기 위해서는 UTF-8을 사용하는 것이 좋다.<br />
-일반적으로 모든 파일명은 영문으로 만드는 것이 더 좋다.
+일반적으로 모든 파일명은 영문을 사용하는 것이 좋다.<br />
+UTF-8을 사용하는 경우에 명령어 창 등에서 한글이 깨지는 문제가 발생할 수 있는데,
+이는 시스템에서 UTF-8을 지원하도록 설정함으로써 해결할 수 있다. [링크](/posts/windows-utf-8/) 참조
 
 ## 참고
 - [https://github.com/bosornd/bangtal.c](https://github.com/bosornd/bangtal.c)
