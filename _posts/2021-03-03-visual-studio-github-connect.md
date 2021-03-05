@@ -3,7 +3,7 @@ title: "Visual Studio에서 GitHub 연동하기"
 permalink: /posts/visual-studio-github-connect/
 date: "2021-03-03 20:20:16 +0900"
 categories:
-  - git
+  - git, visual studio
 ---
 Visual Studio에서 GitHub와 연동해서 저장소를 관리할 수 있다.
 
