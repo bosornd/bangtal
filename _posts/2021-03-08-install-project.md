@@ -1,5 +1,5 @@
 ---
-title: "윈도우즈 설치 프로젝트"
+title: "윈도우즈 설치 프로젝트 생성하기"
 permalink: /posts/install-project/
 date: "2021-03-08 21:54:46 +0900"
 categories:
