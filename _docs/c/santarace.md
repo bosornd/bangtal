@@ -24,6 +24,7 @@ modified: "2021-02-17 12:50:00 +0900"
 - 파일 경로를 입력할 때는 "\\"보다 "/"를 사용하는 것이 좋다.
   안드로이드 버전과의 호환성을 위함.
   기본 문자열이 UTF-8로 설정됨. #pragma execution_character_set("utf-8")
+- MOUSE_DRAG_LEFT 등 enum은 MouseAction::MOUSE_DRAG_LEFT으로 사용해야 한다.
 - keypad type이 제거되었다.
   암호에 따라서 영문/숫자가 자동으로 보인다.
   암호가 입력된 경우에 EVENT_KEYPAD가 발생하며 object callback으로 전달된다.
