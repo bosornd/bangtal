@@ -40,16 +40,24 @@ MS-Windows는 기본적으로 CP949 방식으로 한글을 지원한다.
 
 명령어 창이나 Visual Studio 등 대부분의 프로그램에서 정상적으로 동작하고 있지만,
 Beta인 만큼 다른 프로그램에서 한글이 깨지는 문제가 발생할 수 있다.
-
-## 문제점
-- 알집 설치 및 업데이트에서 다음과 같은 오류를 보입니다.
-<figure>
-  <a href="/assets/images/alzip_utf-8.png">
-  <img src="/assets/images/alzip_utf-8.png" alt="알집 설치 오류"></a>
-</figure>
+따라서, 콘솔 입출력이나 디버깅의 목적에 따라 UTF-8 지원을 선택해서
+사용하는 것이 좋다.
 
 ## 프로그래밍 가이드
 다양한 환경에서 한글 문제가 없도록 하기 위해서는 다음 가이드를 따르는 것이 좋다.
 - 파일 및 경로의 이름에는 한글/공백/특수 문자 등을 포함하지 않는다.
-  영문과 숫자만 사용한다.
 - 소스 코드를 포함한 텍스트 문서는 UTF-8(BOM)으로 저장한다.
+
+## 문제점
+"세계 언어 지원을 위해 Unicode UTF-8 사용"을 선택하면 다음과 같은 문제가 발생한다.
+
+- 알집 설치 및 업데이트에서 다음과 같이 한글이 깨진다.
+  <figure>
+    <a href="/assets/images/alzip_utf-8.png">
+    <img src="/assets/images/alzip_utf-8.png" alt="알집 설치 오류"></a>
+  </figure>
+- draw.io, plantuml 등에서 출력된 svg 파일을 MS-WORD에 삽입할 때 한글이 깨진다.
+  <figure>
+    <a href="/assets/images/word_utf-8.png">
+    <img src="/assets/images/word_utf-8.png" alt="워드 오류"></a>
+  </figure>
