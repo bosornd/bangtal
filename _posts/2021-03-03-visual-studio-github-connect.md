@@ -82,3 +82,6 @@ GitHub 저장소로 푸시되었음을 확인할 수 있다.
   <a href="/assets/images/visual_studio_github8.png">
   <img src="/assets/images/visual_studio_github8.png" alt="푸시 확인하기"></a>
 </figure>
+
+## 참고
+- [https://docs.microsoft.com/ko-kr/visualstudio/ide/git-with-visual-studio](https://docs.microsoft.com/ko-kr/visualstudio/ide/git-with-visual-studio)
