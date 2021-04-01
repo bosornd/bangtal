@@ -7,4 +7,4 @@ permalink: /lectures/c/week06/
 - switch
 
 ## 1. 조건문
-{% include video id="-JNTP5D8-1A" provider="youtube" %}
+{% include video id="EfHncD0sm6c" provider="youtube" %}
