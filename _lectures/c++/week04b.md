@@ -1,10 +1,8 @@
 ---
-title: "틀린그림찾기"
-permalink: /docs/c++/differences/
-excerpt: "틀린그림찾기"
-modified: "2021-02-17 15:10:00 +0900"
+title: "4주차 - 프로그래밍 맛보기(3)"
+permalink: /lectures/c++/week04b/
 ---
-틀린그림찾기 게임을 통해 방탈 라이브러리를 배워보자.
+틀린그림찾기 게임 예제를 따라하면서 C++언어 프로그래밍을 맛본다.
 설명에 사용된 이미지와 완성된 프로그램은 다음 링크를 참고한다.
 - [https://github.com/bosornd/bangtal.cpp](https://github.com/bosornd/bangtal.cpp)
 

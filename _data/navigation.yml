@@ -8,6 +8,8 @@ main:
     url: /api/
   - title: "C언어 강좌"
     url: /lectures/c/
+  - title: "C++언어 강좌"
+    url: /lectures/c++/
 
 docs:
   - title: Getting Started

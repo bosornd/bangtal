@@ -12,6 +12,11 @@ modified: "2021-02-17 10:50:00 +0900"
   <img src="/assets/images/room_escape.png" alt="방탈출">
 </figure>
 
+동영상은 bangtal.h를 포함해야 한다고 설명하는데, bangtal을 포함해야 합니다.
+```c++
+#include <bangtal>
+```
+
 ## 1. 장면 생성하기
 {% include video id="7yrjCanbCms" provider="youtube" %}
 

@@ -1,10 +1,8 @@
 ---
-title: "산타 레이스"
-permalink: /docs/c++/santarace/
-excerpt: "산타 레이스"
-modified: "2021-02-17 12:50:00 +0900"
+title: "3주차 - 프로그래밍 맛보기(2)"
+permalink: /lectures/c++/week03b/
 ---
-산타 레이스 게임을 통해 방탈 라이브러리를 배워보자.
+산타 레이스 게임 예제를 따라하면서 C++언어 프로그래밍을 맛본다.
 설명에 사용된 이미지와 완성된 프로그램은 다음 링크를 참고한다.
 - [https://github.com/bosornd/bangtal.cpp](https://github.com/bosornd/bangtal.cpp)
 
