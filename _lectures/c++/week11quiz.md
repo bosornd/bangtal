@@ -92,11 +92,7 @@ int main()
 ```
 
 ## 문제4
-다음 프로그램의 출력은(2점)?
-
-<figure>
-  <img src="/assets/images/class_diagram_time_date.png">
-</figure>
+다음 프로그램의 출력에 대해서 설명하세요(2점)?
 
 ```c
 #include <iostream>

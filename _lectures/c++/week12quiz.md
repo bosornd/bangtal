@@ -26,7 +26,7 @@ int main(){
 다음 프로그램을 수정하세요(2점).
 
 ```c
-##include <iostream>
+#include <iostream>
 #include <cstring>
 using namespace std;
 

@@ -80,7 +80,8 @@ int main(){
 
 ```c
 #include <iostream>
-#include <algorithm>#include <vector>
+#include <algorithm>
+#include <vector>
 using namespace std;
 
 int main(){
