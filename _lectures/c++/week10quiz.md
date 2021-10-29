@@ -10,22 +10,23 @@ permalink: /lectures/c++/quiz10/
 #include <iostream>
 using namespace std;
 
-class Student
-{
-private:
-    string m_name;
+class Person {
+    string name;
 
 public:
-    Student(const string &n) : m_name(n){ };
-    const string& name(){ return m_name; };
+    Person(const string& n) : name(n){};
+};
+
+class Student : public Person {
+    int number;
+    
+public:
+    Student(int n, const string& name) : Person(name),  number(n){};
 };
 
 int main()
 {
-    Student s1("tom"), s2("jane");
-
-    cout << s1.name() << endl;
-    cout << s2.name() << endl;
+    Student s(1, "tom");
 
     return 0;
 }
