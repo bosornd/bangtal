@@ -16,6 +16,7 @@ Xcode를 사용해서 방탈 라이브러리 게임을 만들 수 있다.
 
 ## Bangtal Library 설치하기
 최신 버전의 방탈 라이브러리([Bangtal.pkg](https://github.com/bosornd/bangtal/releases))를 설치한다.
+- 방탈 라이브러리는 /Library/Frameworks/Bangtal에 설치된다.
 
 ## 프로젝트 생성하기
 - macOS 프로젝트를 "Command Line Tool"로 생성한다.
