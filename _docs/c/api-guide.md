@@ -58,50 +58,56 @@ permalink: /docs/c/api-guide/
   setObjectImage(door1, "Images/문-오른쪽-열림.png");
   ```
 
-3. void [locateObject](/api/bangtal_8h.html#a841791c660e8b5781662fbaf28620182)([ObjectID](/api/bangtal_8h.html#a9d43422939374d7485e494503ab30b8b) object, [SceneID](/api/bangtal_8h.html#a4276516c60e90dcc61adda40ef8dd0e5) scene, int x, int y)<br />
+3. void setObjectText([ObjectID](/api/bangtal_8h.html#a9d43422939374d7485e494503ab30b8b) object, const char* text = "")<br />
+  물체(object)의 텍스트(text)를 변경한다.
+  ```c
+  setObjectText(door1, "한글 ABC\n123456");
+  ```
+
+4. void [locateObject](/api/bangtal_8h.html#a841791c660e8b5781662fbaf28620182)([ObjectID](/api/bangtal_8h.html#a9d43422939374d7485e494503ab30b8b) object, [SceneID](/api/bangtal_8h.html#a4276516c60e90dcc61adda40ef8dd0e5) scene, int x, int y)<br />
   물체(object)를 장면(scene)에 위치(x, y)시킨다.
   ```c
   locateObject(door1, scene1, 800, 270);
   ```
 
-4. void [scaleObject](/api/bangtal_8h.html#a0c607e8241b4d3293c69b813ad9771ad)([ObjectID](/api/bangtal_8h.html#a9d43422939374d7485e494503ab30b8b) object, ObjectScale scale)<br />
+5. void [scaleObject](/api/bangtal_8h.html#a0c607e8241b4d3293c69b813ad9771ad)([ObjectID](/api/bangtal_8h.html#a9d43422939374d7485e494503ab30b8b) object, ObjectScale scale)<br />
   물체(object)의 크기(scale)를 조정한다.
   ```c
   scaleObject(door1, 2.f);            // 200%
   ```
 
-5. void [showObject](/api/bangtal_8h.html#ae46082fc3da39525de3691944049afd5)([ObjectID](/api/bangtal_8h.html#a9d43422939374d7485e494503ab30b8b) object) / void [hideObject](/api/bangtal_8h.html#ae02df98d7480b3e5788999b82f9cb251)([ObjectID](/api/bangtal_8h.html#a9d43422939374d7485e494503ab30b8b) object)<br />
+6. void [showObject](/api/bangtal_8h.html#ae46082fc3da39525de3691944049afd5)([ObjectID](/api/bangtal_8h.html#a9d43422939374d7485e494503ab30b8b) object) / void [hideObject](/api/bangtal_8h.html#ae02df98d7480b3e5788999b82f9cb251)([ObjectID](/api/bangtal_8h.html#a9d43422939374d7485e494503ab30b8b) object)<br />
   물체(object)를 보이거나(showObject) 숨긴다(hideObject)
   ```c
   showObject(door1);
   ```
 
-6. void [pickObject](/api/bangtal_8h.html#a1f4f4b2856928a0bdf29609ee81f510d)([ObjectID](/api/bangtal_8h.html#a9d43422939374d7485e494503ab30b8b) object) / void [dropObject](/api/bangtal_8h.html#a290f97199c0fec4dd692726a44d25d26)([ObjectID](/api/bangtal_8h.html#a9d43422939374d7485e494503ab30b8b) object)<br />
+7. void [pickObject](/api/bangtal_8h.html#a1f4f4b2856928a0bdf29609ee81f510d)([ObjectID](/api/bangtal_8h.html#a9d43422939374d7485e494503ab30b8b) object) / void [dropObject](/api/bangtal_8h.html#a290f97199c0fec4dd692726a44d25d26)([ObjectID](/api/bangtal_8h.html#a9d43422939374d7485e494503ab30b8b) object)<br />
   물체(object)를 줍거나(pickObject) 떨어 뜨린다(dropObject)
   ```c
   pickObject(key);
   ```
 
-7. void [defineCombination](/api/bangtal_8h.html#adf36922421459dddc9a574e0e22a2950)([ObjectID](/api/bangtal_8h.html#a9d43422939374d7485e494503ab30b8b) object1, [ObjectID](/api/bangtal_8h.html#a9d43422939374d7485e494503ab30b8b) object2, [ObjectID](/api/bangtal_8h.html#a9d43422939374d7485e494503ab30b8b) object3)<br />
+8. void [defineCombination](/api/bangtal_8h.html#adf36922421459dddc9a574e0e22a2950)([ObjectID](/api/bangtal_8h.html#a9d43422939374d7485e494503ab30b8b) object1, [ObjectID](/api/bangtal_8h.html#a9d43422939374d7485e494503ab30b8b) object2, [ObjectID](/api/bangtal_8h.html#a9d43422939374d7485e494503ab30b8b) object3)<br />
   물체의 조합 방법을 정의한다.
   object1과 object2를 조합(Combine)하면 object3가 된다.
   반대로 object3를 분해(Dismantle)하면 object1과 object2가 된다.
 
-8. [ObjectID](/api/bangtal_8h.html#a9d43422939374d7485e494503ab30b8b) [getHandObject](/api/bangtal_8h.html#a548f9a09e6eee1f6c6963b658e05fc62)()<br />
+9. [ObjectID](/api/bangtal_8h.html#a9d43422939374d7485e494503ab30b8b) [getHandObject](/api/bangtal_8h.html#a548f9a09e6eee1f6c6963b658e05fc62)()<br />
   현재 사용하고 있는 물체의 ID가 반환된다.
   사용하고 있는 물체가 없으면 0이 반환된다.
 
-9. void [setObjectCallback](/api/bangtal_8h.html#aa26bedd9fbedb7726135d8d870a80793)([ObjectCallback](/api/bangtal_8h.html#aae00ada60f57d513d22e752d0a3b78b5) callback)<br />
+10. void [setObjectCallback](/api/bangtal_8h.html#aa26bedd9fbedb7726135d8d870a80793)([ObjectCallback](/api/bangtal_8h.html#aae00ada60f57d513d22e752d0a3b78b5) callback)<br />
   물체에서 발생하는 이벤트를 수신하는 callback 함수를 설정한다.
   물체를 주울 때(EVENT_PICK_OBJECT), 떨어 뜨릴 때(EVENT_DROP_OBJECT) 이벤트가 발생한다.
   물체를 조합할 때(EVENT_COMBINE_OBJECT), 분해할 때(EVENT_DISMANTLE_OBJECT) 이벤트가 발생한다.
   KEYPAD 암호가 입력된 경우에 EVENT_KEYPAD 이벤트가 발생한다.
 
-10. void [setMouseCallback](/api/bangtal_8h.html#a9b828a65e91609a44cd7e2ec8456e3b0)([MouseCallback](/api/bangtal_8h.html#a9612cf018b328681a31d38377b2cb3e5) callback)<br />
+11. void [setMouseCallback](/api/bangtal_8h.html#a9b828a65e91609a44cd7e2ec8456e3b0)([MouseCallback](/api/bangtal_8h.html#a9612cf018b328681a31d38377b2cb3e5) callback)<br />
   물체에 마우스 입력을 수신하는 callback 함수를 설정한다.
   마우스를 클릭(MOUSE_CLICK)하거나 드래그(MOUSE_DRAG_UP/DONW/LEFT/RIGHT)가 발생한다.
 
-11. void [setKeyboardCallback](/api/bangtal_8h.html#aead6d0852b832072d6c48d8d4c108565)([KeyboardCallback](/api/bangtal_8h.html#a6ba3385cbe76afca5db6ff18ae1bbd88) callback)<br />
+12. void [setKeyboardCallback](/api/bangtal_8h.html#aead6d0852b832072d6c48d8d4c108565)([KeyboardCallback](/api/bangtal_8h.html#a6ba3385cbe76afca5db6ff18ae1bbd88) callback)<br />
   키보드 입력을 수신하는 callback 함수를 설정한다.
   키가 눌리는 경우에 코드와 상태(KEY_PRESSED / KEY_RELEASED)가 전달된다.
 

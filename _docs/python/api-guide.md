@@ -87,10 +87,16 @@ from bangtal import *
    ```
 
 2. setImage(image_file)<br />
-   Object 객체의 이미지를 변경합니다.<br />
+   Object 객체의 이미지(image_file)를 변경합니다.<br />
    ```python
    door1.setImage("Images/문-오른쪽-열림.png")
    ```
+
+ 2. setText(text)<br />
+    Object 객체의 텍스트(text)를 변경합니다.<br />
+    ```python
+    door1.setText("한글 ABC\n123456")
+    ```
 
 3. setScale(scale)<br />
    Object 객체의 크기를 조정합니다.<br />

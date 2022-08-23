@@ -114,41 +114,48 @@ using namespace bangtal;
   door->setImage("Images/문-오른쪽-열림.png");
   ```
 
-3. void [setScale](/api/classbangtal_1_1_object.html#aeb5f1aba5c856072368001103f78711e)([ObjectScale](/api/bangtal_8h.html#a537d96924958a57df4f79361694478d1) scale)<br />
+3. void setText(const std::string& text)<br />
+  물체(object)의 텍스트(text)를 변경한다.
+  ```c++
+  door->setText("한글 ABC\n123456");
+  ```
+
+
+4. void [setScale](/api/classbangtal_1_1_object.html#aeb5f1aba5c856072368001103f78711e)([ObjectScale](/api/bangtal_8h.html#a537d96924958a57df4f79361694478d1) scale)<br />
   물체(object)의 크기(scale)를 조정한다. 1이 100%이며 float 값이다.
   ```c++
   door->setScale(0.5f);      // 50%
   ```
 
-4. void [locate](/api/classbangtal_1_1_object.html#ae5542aabd52dc1d64c71a24bc2f4ff59)([ScenePtr](/api/namespacebangtal.html#abb35c3c750f71093eb016b9d812066e3) scene, int x, int y)<br />
+5. void [locate](/api/classbangtal_1_1_object.html#ae5542aabd52dc1d64c71a24bc2f4ff59)([ScenePtr](/api/namespacebangtal.html#abb35c3c750f71093eb016b9d812066e3) scene, int x, int y)<br />
   물체(object)를 장면(scene)의 (x, y)로 위치시킨다.
   ```c++
   door->locate(scene1, 900, 270)
   ```
 
-5. void [show](/api/classbangtal_1_1_object.html#a3f2cb2a14439a9a74aaf6bd5bf5b8c16)() / [hide](/api/classbangtal_1_1_object.html#a2df4da449414f69a6ecfc79027412d22)()<br />
+6. void [show](/api/classbangtal_1_1_object.html#a3f2cb2a14439a9a74aaf6bd5bf5b8c16)() / [hide](/api/classbangtal_1_1_object.html#a2df4da449414f69a6ecfc79027412d22)()<br />
   물체(object)를 보이거나(show) 숨깁니다(hide).
   ```c++
   key->show()
   ```
 
-6. void [pick](/api/classbangtal_1_1_object.html#a2b7d74354b53fff7a8ef913b2e1eb020)() / [drop](/api/classbangtal_1_1_object.html#af77fae71ec4bc0492a97d1a388bada3c)()<br />
+7. void [pick](/api/classbangtal_1_1_object.html#a2b7d74354b53fff7a8ef913b2e1eb020)() / [drop](/api/classbangtal_1_1_object.html#af77fae71ec4bc0492a97d1a388bada3c)()<br />
   물체(object)를 줍거나(pick) 떨어뜨립니다(drop).
   ```c++
   key->pick()
   ```
 
-7. void [defineCombination](/api/classbangtal_1_1_object.html#a1b0c8562232a1532bfa13468780b3849)([ObjectPtr](/api/namespacebangtal.html#a58bcfbb10dc18b44fb41c19c4d850a59) obj1, [ObjectPtr](/api/namespacebangtal.html#a58bcfbb10dc18b44fb41c19c4d850a59) obj2)<br />
+8. void [defineCombination](/api/classbangtal_1_1_object.html#a1b0c8562232a1532bfa13468780b3849)([ObjectPtr](/api/namespacebangtal.html#a58bcfbb10dc18b44fb41c19c4d850a59) obj1, [ObjectPtr](/api/namespacebangtal.html#a58bcfbb10dc18b44fb41c19c4d850a59) obj2)<br />
   2개의 물체 obj1과 obj2를 조합(combine)하면 물체(object)를 생성할 수 있습니다.
   반대로 물체(object)를 분해(dismantle)하면 2개의 물체 obj1과 obj2를 얻을 수 있습니다.
 
-8. bool [isHanded](/api/classbangtal_1_1_object.html#ae1776922c90a3fc51d4b70d0e4d8ce2a)()<br />
+9. bool [isHanded](/api/classbangtal_1_1_object.html#ae1776922c90a3fc51d4b70d0e4d8ce2a)()<br />
   물체(object)가 사용 중인가를 반환합니다.
   ```c++
   key->isHanded()
   ```
 
-9. 물체(object)의 마우스 입력을 처리하는 Event Handler - bool [onMouse](/api/classbangtal_1_1_object.html#ab4780f0765cce0a58d816a9ada7424a3)(int x, int y, [MouseAction](/api/bangtal_8h.html#ac238b2b97468572bf2da46b80a3b1bb3) action)<br />
+10. 물체(object)의 마우스 입력을 처리하는 Event Handler - bool [onMouse](/api/classbangtal_1_1_object.html#ab4780f0765cce0a58d816a9ada7424a3)(int x, int y, [MouseAction](/api/bangtal_8h.html#ac238b2b97468572bf2da46b80a3b1bb3) action)<br />
   기본적으로 onMouseCallback 함수를 호출한다.
   [setOnMouseCallback](/api/classbangtal_1_1_object.html#a819900bf45f0829982cd2ab9de307641)() 함수를 통해서 재정의 할 수 있다.
   ```c++
@@ -157,7 +164,7 @@ using namespace bangtal;
        });
   ```
 ​
-10. 물체(object)를 줍거나 떨어뜨리는 이벤트를 처리하는 Event Handler - bool [onPick](/api/classbangtal_1_1_object.html#ae0ae0c5cc37a5c932c2e258c11c08757)() / [onDrop](/api/classbangtal_1_1_object.html#afec5fb2c1014656489dd097b5e31b7b0)()<br />
+11. 물체(object)를 줍거나 떨어뜨리는 이벤트를 처리하는 Event Handler - bool [onPick](/api/classbangtal_1_1_object.html#ae0ae0c5cc37a5c932c2e258c11c08757)() / [onDrop](/api/classbangtal_1_1_object.html#afec5fb2c1014656489dd097b5e31b7b0)()<br />
   기본적으로 onPickCallback 함수를 호출한다.
   [setOnPickCallback](/api/classbangtal_1_1_object.html#a0d38b6dd0f563bc10fda594fd125dc8a)() 함수를 통해서 재정의 할 수 있다.
   ```c++
@@ -166,11 +173,11 @@ using namespace bangtal;
        });
   ```
 
-11. 물체(object)를 조합/분해하는 이벤트를 처리하는 Event Handler - bool [onCombine](/api/classbangtal_1_1_object.html#a855c9c073bd14f961c51a5c13a489b8b)() / [onDismantle](/api/classbangtal_1_1_object.html#adc5a0564ea093c0aec1fadc3ddc1522c)()<br />
+12. 물체(object)를 조합/분해하는 이벤트를 처리하는 Event Handler - bool [onCombine](/api/classbangtal_1_1_object.html#a855c9c073bd14f961c51a5c13a489b8b)() / [onDismantle](/api/classbangtal_1_1_object.html#adc5a0564ea093c0aec1fadc3ddc1522c)()<br />
   기본적으로 onCombineCallback 함수를 호출한다.
   [setOnCombineCallback](/api/classbangtal_1_1_object.html#a563b0eb0030c0a843e1053cfd61e9c85)() 함수를 통해서 재정의 할 수 있다.
 
-12. 키패드(keypad)를 완성하는 이벤트를 처리하는 Event Handler - bool [onKeypad](/api/classbangtal_1_1_object.html#aea58f22f73316a106fb7d0c911509563)()<br />
+13. 키패드(keypad)를 완성하는 이벤트를 처리하는 Event Handler - bool [onKeypad](/api/classbangtal_1_1_object.html#aea58f22f73316a106fb7d0c911509563)()<br />
   기본적으로 onKeypadCallback 함수를 호출한다.
   [setOnKeypadCallback](/api/classbangtal_1_1_object.html#a57f2ca3027ce3deb9079fa748440ef8c)() 함수를 통해서 재정의 할 수 있다.
   ```c++
