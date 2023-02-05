@@ -98,25 +98,22 @@ analytics:
 author:
   name             : "CHO YONG JIN"
   avatar           : "/assets/images/drajin.png"
-  bio              : "Software Architect &<br />Learning Experience Designer"
+  bio              : "Software Architect"
   location         :
   email            : "drajin.cho@bosornd.com"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://bosornd.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/DrajinCho"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       url: "https://facebook.com/drajin.cho"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/YongJin-Cho"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/drajin.cho"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:drajin.cho@bosornd.com"
 
 # Site Footer
 footer:
